@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Nav + Hero section*/
+.nav-floar-right{
+    margin-left: 300px;
+}
+li{
+    margin: 10px;
+}
+li a{
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+
+}
+.hero-section{
+    height: 600px;
+    background-color: #FFFFF4;
+}
+.highlight{
+    color: #76C27E;
+}
+
+.col-6 img{
+    width: 100%;
+    margin-left:50px ;
+    
+   
+}
+.col-6 h1{
+    font-size: 75px;
+    font-weight: 800;
+}
+.btn-button{
+    padding: 15px 40px;
+    color: cornsilk;
+    background-color:#2A1E59 ;
+    border-radius: 10px;
+    overflow: hidden;
+    border: none;
+    color:#99C1DA ;
+    margin-top: 40px;
+}
+
+.ecommerce{   
+    margin-right: 4px;
+    color: white;
+}
+
+/* card section */
+
+.card-h1{
+    color: #363958;
+    font-weight: 700;
+}
+h5{
+    font-size: 50px;
+    color: #2A1E59;
+    
+}
+
+.img-style{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+.price{
+    color: #76C27E;
+    margin-top: 35px;
+    font-weight: 500;
+    font-size: 35px;
+    margin-right: 40px;
+}
+.half-width{
+    height: 400px;
+    float: left;
+    
+}
+footer p {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #1a0d07;
+    padding: 15px;   
+    border-radius: 0 0 5PX 5PX;
+    
+}
+
+
+
+
+@media (max-width:992px){
+    .hero1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+     {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media (max-width:668px){
+    .hero2{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
